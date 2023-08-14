@@ -9,7 +9,7 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background-color: var(--grayish-blue);
+	background-color: var(--light-gray);
 }
 
 h1,
@@ -26,9 +26,39 @@ a {
 p {
 	font-size: 15px;
 }
-
+h2 {
+	font-size: 22px;
+}
 /* mobile 375px
 desktop 1440px */
 
-@media screen and (max-width: 719px) {
+.wrapper {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card {
+	background-color: white;
+	width: 320px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 15px;
+	padding: 15px 10px 25px;
+}
+.qr {
+	width: 100%;
+	border-radius: 15px;
+}
+.card-text {
+	width: 80%;
+	text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+	.card {
+		width: 85%;
+	}
 }
