@@ -46,11 +46,12 @@ desktop 1440px */
 	flex-direction: column;
 	align-items: center;
 	border-radius: 15px;
-	padding: 15px 10px 25px;
+	padding: 20px 15px 25px;
 }
 .qr {
 	width: 100%;
 	border-radius: 15px;
+	margin-bottom: 10px;
 }
 .card-text {
 	width: 80%;
