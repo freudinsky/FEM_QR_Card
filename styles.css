@@ -1,0 +1,27 @@
+:root{
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--grayish-blue);
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Outfit', sans-serif;
+}
+
+p {
+    font-size: 15px;
+}
+
+/* mobile 375px
+desktop 1440px */
+
+@media screen and (max-width: 719px) {
+    
+}
